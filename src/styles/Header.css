@@ -1,0 +1,29 @@
+.main-header{
+    background-color: rgba(92, 107, 191, 0.214);  
+   /* background-image: linear-gradient(to bottom right, rgb(92,107,191), rgb(178, 183, 210)); */
+   height:5rem;
+   padding:1rem; 
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   margin:1rem;
+   
+}
+.what{
+    background-color: rgba(92, 107, 191, 0);
+    margin-left:2rem;  
+    font-size: xx-large;
+}
+nav{
+    background-color: rgba(92, 107, 191, 0);  
+    margin-left:2rem;  
+}
+a{
+    background-color: rgba(92, 107, 191, 0);  
+    text-decoration: none;
+    font-size: large;
+     padding-right:1rem;
+}
+.navigate{
+    background-color: rgba(92, 107, 191, 0);  
+}
