@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
      
-      <BrowserRouter basename='fe'>
+      <BrowserRouter basename={document.baseURI.substring(document.baseURI.indexOf(window.location.origin) + window.location.origin.length, document.baseURI.lastIndexOf('/'))}>
       <Routes>
         <Route path="/" element={ <Home/>} />
       </Routes>
