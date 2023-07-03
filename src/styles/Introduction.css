@@ -31,7 +31,6 @@ width:20rem;
     text-align:center;
 }
 
-
 @media only screen and (max-width: 600px) {
     .intro-section{
         display:flex;
