@@ -9,7 +9,7 @@ function Introduction(){
             <div className="profile">
                 <div className="name">
                 <h1>Welcome to My Portfolio</h1>
-                <h1>Hi, I'm a frontend developer passionate about creating user-friendly and visually appealing websites.</h1>
+                <h2>Hi, I'm a frontend developer passionate about creating user-friendly and visually appealing websites.</h2>
                 </div>
             </div>
             
