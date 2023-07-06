@@ -16,7 +16,7 @@ const Footer = () => {
     <img className='social-icon' src={instagram} alt="javascript" />
     <img className='social-icon' src={githuub} alt="javascript" />
     </div>
-    <div className="email-id"><h3>singhgirish0588@gmail.com</h3></div>
+    <div className="email-id"><h3>Contact : singhgirish0588@gmail.com</h3></div>
     </div>
   )
 }
