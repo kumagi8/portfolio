@@ -7,13 +7,14 @@ const Projects = () => {
       <div className="project-container"> 
         <div className="project-card">
             <div className="project-name">
-                project1
+              <p>project1</p>  
             </div>
             <div className="project-desc">
-                    Lorem ipsum dolor, sit amet consectetur adipisic
-                    ing elitgsvjhsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavvsjcvhbhhhhhhhhhhhhhhhh
-                    hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh. Fuga doloremque debitis saepe unde totam ipsa natus, iure possimus, expedita quam esse accusamus? Molestiae dolore earum sequi quis itaque, reiciendis voluptas.
-                </div>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisic
+                    ing elitgsvjhsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaavvsjcvhbhhhhhhhhhhhhhhhh
+                    hhhhhhhhhhhhhhhhhhhhmus? Molestiae dolore earum sequi quis itaque, reiciendis voluptas.
+               </p>
+                     </div>
                 <div className="view-project">
                 View
                 </div>
@@ -21,10 +22,11 @@ const Projects = () => {
         </div>
         <div className="project-card">
             <div className="project-name">
-                project2
+            <p>project1</p>  
             </div>
             <div className="project-desc">
-                    Lorem ipsum dolor, sit amet conse
+            <p>Lorem ipsum dolor, sit amet consectetur adipisic
+                   </p>
                 </div>
                 <div className="view-project">
                 View
@@ -32,11 +34,12 @@ const Projects = () => {
         </div>
         <div className="project-card">
             <div className="project-name">
-                project3
+            <p>project1</p>  
             </div>
             <div className="project-desc">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga doloremque debitis saepe unde totam ipsa natus, iure possimus, expedita quam esse accusamus? Molestiae dolore earum sequi quis itaque, reiciendis voluptas.
-                </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisic
+                    ing el hhhha doloremque debitis saepe unde totam ipsa natus, iure possimus, expedita quam esse accusamus? Molestiae dolore earum sequi quis itaque, reiciendis voluptas.
+               </p> </div>
                 <div className="view-project">
                 View
                 </div>

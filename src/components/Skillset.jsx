@@ -16,25 +16,25 @@ const Skillset = () => {
         <div className='inner-card'>
         <img className='skill-img' src={js1} alt="javascript" />
         </div>
-        <div className='skill-title'>Javascript</div>
+        {/* <div className='skill-title'>Javascript</div> */}
     </div>
     <div className="cards">
     <div className='inner-card'>
     <img  className='skill-img' src={react} alt="react" />
        </div>
-       <div className='skill-title'>React</div>
+       {/* <div className='skill-title'>React</div> */}
     </div>
     <div className="cards">
     <div className='inner-card'>
     <img className='skill-img'  src={html} alt="html" />
        </div>
-       <div className='skill-title'>HTML</div>
+       {/* <div className='skill-title'>HTML</div> */}
     </div>
     <div className="cards">
     <div className='inner-card'>
     <img className='skill-img'  src={css} alt="ccss" />
        </div>
-       <div className='skill-title'>CSS</div>
+       {/* <div className='skill-title'>CSS</div> */}
     </div>
     </div>
     </div>
