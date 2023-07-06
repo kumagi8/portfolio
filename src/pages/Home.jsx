@@ -1,18 +1,18 @@
 import React from 'react';
 import Header from '../components/Header';
-import Skillset from '../components/Skillset';
+// import Skillset from '../components/Skillset';
 import Introduction from '../components/Introduction';
-import Footer from '../components/Footer';
-import Project from '../components/Projects';
+// import Footer from '../components/Footer';
+// import Project from '../components/Projects';
 
 const Home = () => {
   return (
     <div>
         <Header/>
         <Introduction/>
-        <Skillset/>
+        {/* <Skillset/>
         <Project/>
-        <Footer/>
+        <Footer/> */}
 
     </div>
   )

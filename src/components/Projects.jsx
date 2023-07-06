@@ -1,7 +1,9 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const Projects = () => {
-  return (
+  return (<>
+    <Header/>
     <div className="project-page">
        <div className="project">PROJECTS</div>
       <div className="project-container"> 
@@ -46,7 +48,7 @@ const Projects = () => {
         </div>
       </div>
       
-    </div>
+    </div></>
   )
 }
 

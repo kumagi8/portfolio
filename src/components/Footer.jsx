@@ -4,10 +4,12 @@ import twitter from '../images/twitter.svg'
 import instagram from '../images/instagram.svg'
 import linkedin from '../images/linkedin.svg'
 import githuub from '../images/githuub.svg'
-
+import Header from './Header'
 
 const Footer = () => {
   return (
+    <>
+    <Header/>
     <div className='footer-container'>
     <div className="social-icons-container">
     <img className='social-icon' src={facebook1} alt="javascript" />
@@ -17,7 +19,7 @@ const Footer = () => {
     <img className='social-icon' src={githuub} alt="javascript" />
     </div>
     <div className="email-id"><h3>Contact : singhgirish0588@gmail.com</h3></div>
-    </div>
+    </div></>
   )
 }
 

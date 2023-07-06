@@ -3,12 +3,13 @@ import js1 from '../images/js1.svg';
 import react from '../images/react.svg';
 import html from '../images/html.svg';
 import css from '../images/css.svg';
-
+import Header from './Header';
 
 
 const Skillset = () => {
   return (
     <>
+    <Header/>
     <div className="skills">
      <div className="stack">SKILLS</div>
     <div className='card-container'>
