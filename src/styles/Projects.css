@@ -46,6 +46,8 @@
     text-align: center;
     display:flex;
     justify-content: center;
+    border-bottom: 2px solid rgb(92, 107, 191) ;
+   border-radius: 100%;
     
     
     
@@ -75,21 +77,22 @@
     height:1.5rem;
     color:rgb(255, 255, 255) ;
     background-color:rgb(92, 107, 191) ;
+   
     transition: height .5s;
 } 
 
     .project-card:hover{
-    /* animation-duration: .5s;
+    animation-duration: .5s;
     animation-iteration-count: 2;
     animation-direction:alternate;
-    animation-timing-function:linear;  */
+    animation-timing-function:linear; 
     
     /* .project-desc::-webkit-scrollbar{
         
         display:block;
     } */
     /* .view-project{
-        height:1.2rem;  color:rgb(228, 228, 228) ;
+        height:1.5rem;  color:rgb(228, 228, 228) ;
     }  */
    
 } 
