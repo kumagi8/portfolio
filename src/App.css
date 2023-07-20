@@ -1,6 +1,6 @@
 .App {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  width:100%;
+  /* width:100%; */
 }
 
 @import './styles/Header.css';
