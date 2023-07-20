@@ -5,13 +5,12 @@ const Header = () => {
   return (
     <>
     <header className="main-header">
-      <div className="what">Frontend Developer</div>
       <div className="navigate">
       <nav>
         <Link to="/">Home</Link> 
-        <Link to="/skills">Skills</Link> 
-        <Link to="/projects">Projects</Link> 
-        <Link to="/contact">Contact</Link> 
+        <Link to="#">Skills</Link> 
+        {/* <Link to="/projects">Projects</Link>  */}
+        <Link to="#">Contact</Link> 
       </nav>
       </div>
     

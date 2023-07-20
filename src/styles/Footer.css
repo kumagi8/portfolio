@@ -1,11 +1,27 @@
 .footer-container{
-    height:7rem;
-    /* background-color:rgb(66, 76, 165); */
-    border-top: .10rem solid rgb(92,107,191);
-    /* background-color: rgb(92,107,191); */
-    background-color:rgba(92, 107, 191, 0.126);  
+     background-color:#3963FF;  
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
+    height:39.5rem;
+    border-radius:2rem;
+    margin:2rem 2rem 2rem 2rem;
+    box-shadow: 10px 10px 20px #bcbcbc;
+    /* transform:translateY(-41.4rem);
+    opacity:.5; */
+}
+.contact{
+    /* text-align: center; */
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white; 
+    position:absolute;
+    margin-left:3rem;
+    width:2rem;
+    overflow-wrap: break-word;
+    
 }
 
 .social-icons-container{
@@ -21,19 +37,22 @@
     height:2.5rem;
     width:2.5rem;   
     /* color:antiquewhite;  */
+    background-color:black;
 }
 
 .email-id {
     
-    background-color: rgb(92,107,191);
+    background-color: rgba(92, 107, 191, 0);
     text-align: center;
     justify-content: center;
 
    
 }
-.email-id > h3{
-    background-color: rgb(92,107,191);
-    color:rgb(238, 242, 248);
+.email-id > p{
+    background-color:#3963FF;
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 
 @media only screen and (max-width:600px){

@@ -1,26 +1,37 @@
 .skills{
-    /* border-top:.10rem solid rgb(92,107,191); */
-    text-align: center;
-  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-color: #00CB84;
+    border-radius:2rem;
+    height:39.5rem;
+    margin:2rem 2rem 2rem 2rem;
+    box-shadow: 10px 10px 20px #bcbcbc;
+    /* transform:translateY(-41.4rem); */
+    /* display:none; */
+    /* opacity:.5; */
 }
+
 .stack{
-    font-size: 10vw;
-    font-weight: 300;
-    margin-top:2rem;
-    color: rgba(92, 107, 191, 0.356); 
-    z-index: -1; 
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: white; 
+    position:absolute;
+    margin-left:3rem;
+    width:2rem;
+    overflow-wrap: break-word;
+    
 }
 
 .card-container{
-    width:100%;
-    max-height:80vh;
-    
+    width:100%; 
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    overflow:scroll;
+    /* overflow:scroll; */
 }
 .card-container::-webkit-scrollbar{
     display:none;
@@ -28,7 +39,7 @@
 .cards{
     height:7rem;
     width:5rem;
-    margin:5rem; 
+    margin:1rem; 
     display:flex;
     flex-direction: column;
     justify-content:space-around;
@@ -43,31 +54,18 @@
 }
 
 .skill-img{
-    width:10rem;
-    height:10rem;border-radius:1rem;
+    width:7rem;
+    height:7rem;
+    border-radius:1rem;
     perspective: 100px;
-    /* margin:1rem; */
+
 }
 
 @media only screen and (max-width: 600px) {
-    .card-container{
-        display:flex;
-        flex-direction: row;
-  
-    }
+
     .cards{    
-        min-height:15rem;
-        min-width:15rem;  
-        margin:.5rem;
-       
-        display:flex;
-        flex-direction: column;
-        text-align:center;
-        
-    }
-    .skill-img{
-        /* width:6rem;
-        height:15rem;border-radius:1rem; */
-        /* margin:1rem; */
+        min-height:8rem;
+        min-width:13rem;  
+
     }
   }
