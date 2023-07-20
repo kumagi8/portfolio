@@ -1,14 +1,13 @@
 .footer-container{
-    min-width:400px;
+    min-width:300px;
      background-color:#3963FF;  
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    /* text-align: center; */
     justify-content: center;
     height:39.5rem;
     border-radius:2rem;
-    margin:2rem 2rem 2rem 2rem;
+    margin:0 2rem 2rem 2rem;
     box-shadow: 10px 10px 20px #bcbcbc;
     /* transform:translateY(-41.4rem);
     opacity:.5; */
@@ -30,16 +29,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left:2rem;
+    margin-left:1rem;
  
 
 }
 .social-icon{
     margin:1rem;
-    height:2.5rem;
-    width:2.5rem;   
+    height:2rem;
+    width:2rem;   
     /* color:antiquewhite;  */
     background-color:black;
+    
 }
 
 .email-id {
@@ -53,11 +53,11 @@
 .email-id > p{
     background-color:#3963FF;
     color:white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 200;
 }
 
-@media only screen and (max-width:550px){
+@media (min-width:600px){
     /* .social-icon{
         margin:1rem;
         height:2rem;
@@ -65,10 +65,12 @@
         
     } */
     .socialicon-emailid{
-        
-        margin-left:4rem;
-     
+        margin:0 1rem 1rem 1rem;
+      
     
+    }
+    .footer-container{
+        margin-left:3.5rem;
     }
     
 }

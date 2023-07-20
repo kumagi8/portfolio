@@ -40,3 +40,9 @@ a{
 /* .navigate{
     background-color: rgba(92, 107, 191, 0);  
 } */
+@media (min-width: 360px) {
+    .main-header{
+       /* margin-left:3.5rem; */
+    }
+  
+  }
