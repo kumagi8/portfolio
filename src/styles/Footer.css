@@ -1,6 +1,6 @@
 .footer-container{
     min-width:300px;
-     background-color:#3963FF;  
+    background-color:#3963FF;  
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
@@ -69,7 +69,7 @@
       
     
     }
-    .footer-container{ margin:0 1rem 1rem 1rem;
+    .footer-container{   margin:0 .5rem .5rem .5rem;
     }
     
 }
