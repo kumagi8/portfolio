@@ -1,9 +1,10 @@
 .footer-container{
+    min-width:400px;
      background-color:#3963FF;  
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    text-align: center;
+    /* text-align: center; */
     justify-content: center;
     height:39.5rem;
     border-radius:2rem;
