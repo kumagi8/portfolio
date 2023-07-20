@@ -43,6 +43,7 @@ a{
 @media (min-width: 360px) {
     .main-header{
        /* margin-left:3.5rem; */
+       margin:0 1rem 1rem 1rem;
     }
   
   }
