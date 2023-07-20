@@ -40,7 +40,7 @@ margin:1rem;
     color:white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .intro-section{
         display:flex;
         flex-direction: row;

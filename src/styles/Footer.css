@@ -24,19 +24,17 @@
     
 }
 
-.social-icons-container{
+.socialicon-emailid{
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
- 
-
+    margin-left:2rem;
 }
 .social-icon{
     margin:1rem;
     height:2.5rem;
     width:2.5rem;   
-    /* color:antiquewhite;  */
     background-color:black;
 }
 
@@ -55,7 +53,7 @@
     font-weight: 200;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:500px){
     .social-icon{
         margin:1rem;
         height:2rem;
